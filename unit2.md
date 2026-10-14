@@ -85,9 +85,7 @@ A system is that part of the universe chosen for thermodynamic study; the remain
 
 ### 1.3 Homogeneous and Heterogeneous Systems
 
-A system that is uniform throughout — consisting of a single phase, such as a pure gas, a pure liquid, or a true solution — is called a homogeneous system. A system consisting of two or more distinct
-
-phases (e.g. ice in contact with water, or a solid in contact with its saturated solution and vapour) is heterogeneous.
+A system that is uniform throughout — consisting of a single phase, such as a pure gas, a pure liquid, or a true solution — is called a homogeneous system. A system consisting of two or more distinct phases (e.g. ice in contact with water, or a solid in contact with its saturated solution and vapour) is heterogeneous.
 
 ### 1.4 Types of Thermodynamic Systems
 
@@ -704,9 +702,7 @@ Because ΔH (and ΔE) are state functions, the total heat change of a reaction i
 
 The formation reaction C(graphite) + ½O2(g) → CO(g) cannot be measured directly — burning carbon in a limited supply of oxygen always yields some CO2 alongside the CO, so the heat measured is never that of a clean, single reaction. Both the combustion of carbon and the combustion of carbon monoxide, however, run cleanly to completion and are easily measured:
 
-(2) C(graphite) + O2(g) → CO2(g),  ΔH2 = −393.5 kJ mol ⁻ ¹
-
-(3) CO(g) + ½O2(g) → CO2(g),  ΔH3 = −283.0 kJ mol ⁻ ¹ Reaction (1), the target, plus reaction (3) gives reaction (2) — that is, ΔH2 = ΔH1 + ΔH3 — so: ΔH1 = ΔH2 − ΔH3 = −393.5 − (−283.0) = −110.5 kJ mol⁻¹
+(2) C(graphite) + O2(g) → CO2(g),  ΔH2 = −393.5 kJ mol ⁻ ¹ (3) CO(g) + ½O2(g) → CO2(g),  ΔH3 = −283.0 kJ mol ⁻ ¹ Reaction (1), the target, plus reaction (3) gives reaction (2) — that is, ΔH2 = ΔH1 + ΔH3 — so: ΔH1 = ΔH2 − ΔH3 = −393.5 − (−283.0) = −110.5 kJ mol⁻¹
 
 ![Figure 10](assets/unit2/fig10.png){: .fig}
 
@@ -790,9 +786,7 @@ A weighed sample is burnt inside a sealed, rigid steel vessel (the "bomb"), pres
 
 <p class="eq">qv = ΔE</p>
 
-The heat released raises the temperature of the water bath and the calorimeter assembly; if the total heat capacity of the assembly, Ccal, has been predetermined (typically by burning a standard sample
-
-of known ΔE, such as benzoic acid), the heat released by the reaction follows from the observed temperature rise:
+The heat released raises the temperature of the water bath and the calorimeter assembly; if the total heat capacity of the assembly, Ccal, has been predetermined (typically by burning a standard sample of known ΔE, such as benzoic acid), the heat released by the reaction follows from the observed temperature rise:
 
 <p class="eq">qv = Ccal × ΔT</p>
 
@@ -1178,9 +1172,7 @@ Overall: ΔE(total) = 10 400 J; q(total) = 21 926 J; w(total) = 11 526 J — ill
 #### Solved Problem 2 — Enthalpy of formation via Hess's Law and bond-energy cross-check
 {: .example}
 
-Estimate ΔHf(CH4) two ways: (a) using combustion data, (b) using bond energies, and compare. (a) Combustion data: ΔHc(C,s)=−393.5, ΔHc(H 2 ,g)=−285.8 (×2=−571.6), ΔHc(CH 4 ,g)=−890.3 kJ mol ⁻ ¹. C(s)+2H 2 (g)→CH 4 (g): ΔHf = [−393.5 + (−571.6)] − (−890.3) = −965.1+890.3 = −74.8 kJ mol ⁻ ¹
-
-(b) Bond-energy route requires the enthalpy of sublimation of carbon and the dissociation energy of H 2 (spectroscopic data) combined with 4×E(C–H); this independent route gives a closely similar value (~−75 kJ mol⁻¹), illustrating that Hess's Law (macroscopic) and bond-energy summation (molecular) are consistent, complementary methods.
+Estimate ΔHf(CH4) two ways: (a) using combustion data, (b) using bond energies, and compare. (a) Combustion data: ΔHc(C,s)=−393.5, ΔHc(H 2 ,g)=−285.8 (×2=−571.6), ΔHc(CH 4 ,g)=−890.3 kJ mol ⁻ ¹. C(s)+2H 2 (g)→CH 4 (g): ΔHf = [−393.5 + (−571.6)] − (−890.3) = −965.1+890.3 = −74.8 kJ mol ⁻ ¹ (b) Bond-energy route requires the enthalpy of sublimation of carbon and the dissociation energy of H 2 (spectroscopic data) combined with 4×E(C–H); this independent route gives a closely similar value (~−75 kJ mol⁻¹), illustrating that Hess's Law (macroscopic) and bond-energy summation (molecular) are consistent, complementary methods.
 
 #### Solved Problem 3 — Entropy and spontaneity check
 {: .example}
@@ -1196,11 +1188,7 @@ Setting ΔH = TΔS: T = ΔH/ΔS = 30 000/100 = 300 K. Below 300 K the process is
 
 A Carnot engine absorbs 2000 cal from a source at 400 K and rejects heat to a sink at 250 K. Calculate (a) efficiency, (b) work done, (c) heat rejected, (d) entropy change of the source and of the sink.
 
-(a) η = (400−250)/400 = 0.375   (b) w = ηq2 = 0.375×2000 = 750 cal
-
-(c) q1 = q2 − w = 2000 − 750 = 1250 cal
-
-(d) ΔSsource = −q2/T2 = −2000/400 = −5.0 cal K ⁻ ¹ (entropy decreases as heat leaves the source)
+(a) η = (400−250)/400 = 0.375   (b) w = ηq2 = 0.375×2000 = 750 cal (c) q1 = q2 − w = 2000 − 750 = 1250 cal (d) ΔSsource = −q2/T2 = −2000/400 = −5.0 cal K ⁻ ¹ (entropy decreases as heat leaves the source)
 
 ΔSsink = +q1/T1 = 1250/250 = +5.0 cal K ⁻ ¹ (entropy increases as heat enters the sink)
 

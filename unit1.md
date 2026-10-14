@@ -311,9 +311,7 @@ This is the Kinetic Gas Equation. Although it has been derived here for a cubica
 
 The kinetic gas equation can be rewritten in terms of the average translational kinetic energy of the molecules. Since the average kinetic energy of a single molecule is e = ½mu², we have mu² = 2e, and:
 
-_PV = ⅓ N (mu²) = ⅓ N (2e) = ⅔ N e = ⅔ E_
-
-where E = Ne is the total kinetic energy of all N molecules in the sample. Comparing this with the ideal gas equation, PV = nRT, gives:
+_PV = ⅓ N (mu²) = ⅓ N (2e) = ⅔ N e = ⅔ E_ where E = Ne is the total kinetic energy of all N molecules in the sample. Comparing this with the ideal gas equation, PV = nRT, gives:
 
 $$
 \tfrac{2}{3}E = nRT \quad\Rightarrow\quad E = \tfrac{3}{2}\, nRT
@@ -353,9 +351,7 @@ A major triumph of the kinetic molecular theory is that it allows every one of t
 
 #### (a) Boyle's Law
 
-Since ½mNu² ∝ T, we can write ½mNu² = kT for some constant k, so that mNu² = ⅔kT. Substituting into the kinetic gas equation, PV = ⅓mNu² = ⅔ × (2/3)kT... more directly, PV = ⅔ × (½mNu²) = ⅔ × kT =
-
-(2k/3)T. At constant temperature this right-hand side is a fixed number, so PV = constant – which is precisely Boyle's law.
+Since ½mNu² ∝ T, we can write ½mNu² = kT for some constant k, so that mNu² = ⅔kT. Substituting into the kinetic gas equation, PV = ⅓mNu² = ⅔ × (2/3)kT... more directly, PV = ⅔ × (½mNu²) = ⅔ × kT = (2k/3)T. At constant temperature this right-hand side is a fixed number, so PV = constant – which is precisely Boyle's law.
 
 #### (b) Charles's Law
 
@@ -487,9 +483,7 @@ _λ = (l₁ + l₂ + l₃ + … + lₙ)/n_
 
 where l₁, l₂, … are the individual free paths and n is the number of collisions undergone. Clearly, the mean free path will be shorter when the gas is denser (molecules packed more closely, so more frequent collisions) and longer when the gas is more dilute. The mean free path is related to the coefficient of viscosity (η) of the gas by:
 
-_λ = 3η / (P d)_
-
-where P is the pressure and d is the density of the gas. At STP, the mean free path of hydrogen is about 1.78 × 10⁻⁵ cm, and that of oxygen about 1.0 × 10⁻⁵ cm – values that are far larger than molecular diameters (of order 10⁻⁸ cm), confirming that molecules spend most of their time travelling freely between infrequent collisions.
+_λ = 3η / (P d)_ where P is the pressure and d is the density of the gas. At STP, the mean free path of hydrogen is about 1.78 × 10⁻⁵ cm, and that of oxygen about 1.0 × 10⁻⁵ cm – values that are far larger than molecular diameters (of order 10⁻⁸ cm), confirming that molecules spend most of their time travelling freely between infrequent collisions.
 
 ### 7.2 Effect of Temperature and Pressure on Mean Free Path
 
@@ -580,9 +574,7 @@ _Cv = ¾R   (monatomic gas)_
 
 For diatomic and polyatomic molecules, additional rotational (and, at sufficiently high temperature, vibrational) degrees of freedom contribute further to Cv; this extra contribution is generally denoted by a term x, so that in general:
 
-_Cv = ¾R + x_
-
-where x = 0 for monatomic gases, x = R for most diatomic gases (two rotational degrees of freedom, each contributing ½R), and x is larger still for non-linear polyatomic molecules (three rotational degrees of freedom, each contributing ½R, i.e. x = ¾R for many such gases at ordinary temperatures, before vibrational contributions become significant).
+_Cv = ¾R + x_ where x = 0 for monatomic gases, x = R for most diatomic gases (two rotational degrees of freedom, each contributing ½R), and x is larger still for non-linear polyatomic molecules (three rotational degrees of freedom, each contributing ½R, i.e. x = ¾R for many such gases at ordinary temperatures, before vibrational contributions become significant).
 
 #### Molar heat capacity at constant pressure, Cp
 
@@ -676,9 +668,7 @@ _P(ideal) = P + p,   where p is the pressure deficit due to intermolecular attra
 
 The magnitude of this pressure correction, p, depends on the strength of the attractive forces, which in turn depends on the concentration of molecules near the wall (attracted) and the concentration of molecules in the bulk (attracting). Since both concentrations are proportional to n/V, the pressure correction is proportional to the square of the concentration:
 
-_p = a n²/V²_
-
-where a is a constant, characteristic of the gas, representing the strength of the intermolecular attractive forces. The pressure term in the ideal gas equation is therefore corrected by adding this term:
+_p = a n²/V²_ where a is a constant, characteristic of the gas, representing the strength of the intermolecular attractive forces. The pressure term in the ideal gas equation is therefore corrected by adding this term:
 
 _P(ideal) = P + an²/V²_
 
@@ -784,9 +774,7 @@ At exactly the critical temperature, the horizontal (two-phase) portion of the i
 
 ### 12.3 Continuity of States – The van der Waals Interpretation
 
-William Thomson (Lord Kelvin) pointed out that the sharp corners seen in Andrews' experimental isotherms are, in a sense, artefacts of the impossibility of maintaining certain unstable intermediate states in the laboratory, and that a truly continuous curve – predicted theoretically by the van der Waals equation –
-
-actually connects the gas and liquid branches through a characteristic S-shaped (wavy) loop. Because the van der Waals equation is a cubic equation in V for any given P and T, it can in principle yield up to three distinct real roots (volumes) for the same pressure and temperature; these three roots converge to a single value exactly at the critical point, where the isotherm develops a horizontal point of inflection.
+William Thomson (Lord Kelvin) pointed out that the sharp corners seen in Andrews' experimental isotherms are, in a sense, artefacts of the impossibility of maintaining certain unstable intermediate states in the laboratory, and that a truly continuous curve – predicted theoretically by the van der Waals equation – actually connects the gas and liquid branches through a characteristic S-shaped (wavy) loop. Because the van der Waals equation is a cubic equation in V for any given P and T, it can in principle yield up to three distinct real roots (volumes) for the same pressure and temperature; these three roots converge to a single value exactly at the critical point, where the isotherm develops a horizontal point of inflection.
 
 ![Figure 17](assets/unit1/fig17.png){: .fig}
 
@@ -826,9 +814,7 @@ $$
 
 ### 12.4 Experimental Determination of Critical Constants
 
-The critical temperature and critical pressure of a substance can be measured relatively easily using an apparatus such as the Cagniard de la Tour apparatus – a sealed, mercury-filled glass tube containing the
-
-liquid under study in a bulb at one end, with the open end acting as a manometer. As the bulb is gradually heated, the meniscus between liquid and vapour becomes progressively fainter and eventually disappears altogether, marking the critical temperature; the manometer reading at this point gives the critical pressure.
+The critical temperature and critical pressure of a substance can be measured relatively easily using an apparatus such as the Cagniard de la Tour apparatus – a sealed, mercury-filled glass tube containing the liquid under study in a bulb at one end, with the open end acting as a manometer. As the bulb is gradually heated, the meniscus between liquid and vapour becomes progressively fainter and eventually disappears altogether, marking the critical temperature; the manometer reading at this point gives the critical pressure.
 
 ![Figure 18](assets/unit1/fig18.png){: .fig}
 

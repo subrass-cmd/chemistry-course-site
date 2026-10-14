@@ -409,9 +409,7 @@ At what temperature will water boil at a hill station where atmospheric pressure
 
 Vapour pressure of water at 100 °C is 76.0 cm. Estimate its vapour pressure at 90 °C, given mean ΔHvap = 542 cal g ⁻ ¹ (= 9756 cal mol ⁻ ¹) over this range.
 
-log(P2/76.0) = [9756/(2.303×1.987)] × [(363−373)/(363×373)]
-
-log(P2/76.0) = 2129.5 × (−7.386×10 ⁻ ⁵) = −0.1573 P2/76.0 = 0.696 ⇒ P2 ≈ 52.9 cm — vapour pressure falls, as expected on cooling.
+log(P2/76.0) = [9756/(2.303×1.987)] × [(363−373)/(363×373)] log(P2/76.0) = 2129.5 × (−7.386×10 ⁻ ⁵) = −0.1573 P2/76.0 = 0.696 ⇒ P2 ≈ 52.9 cm — vapour pressure falls, as expected on cooling.
 
 #### (d) Molal Elevation and Molal Depression Constants
 
@@ -803,11 +801,7 @@ Given ΔGf°(kJ mol⁻¹): NO(g) +86.6, NO2(g) +51.3, N2(g) 0, O2(g) 0. Calculat
 
 Solution:
 
-(a) ΔG°(a) = 2(86.6) − [0+0] = +173.2 kJ
-
-(b) ΔG°(b) = 2(51.3) − [2(86.6)+0] = 102.6 − 173.2 = −70.6 kJ
-
-(c) Adding (a) and (b) directly: ΔG°(a)+ΔG°(b) = 173.2 + (−70.6) = +102.6 kJ
+(a) ΔG°(a) = 2(86.6) − [0+0] = +173.2 kJ (b) ΔG°(b) = 2(51.3) − [2(86.6)+0] = 102.6 − 173.2 = −70.6 kJ (c) Adding (a) and (b) directly: ΔG°(a)+ΔG°(b) = 173.2 + (−70.6) = +102.6 kJ
 
 Direct calculation of (c): ΔG°(c) = 2(51.3) − [0+0] = +102.6 kJ — exactly matching the sum of the two step values, confirming that ΔG° (like ΔH°) is additive along any reaction pathway, exactly as Hess's Law established for ΔH° in Unit II.
 
