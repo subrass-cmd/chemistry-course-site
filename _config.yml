@@ -1,0 +1,7 @@
+title: Physical Chemistry I (24S105)
+description: S.S. Subramanian · Department of Applied Science · PSG College of Technology
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  toc_levels: 2..3

@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content { max-width: 60rem; font-size: 1.05rem; line-height: 1.65; }
+.main-content h1 { color: #155799; }
+.main-content h2 { border-bottom: 2px solid #e1eaf3; padding-bottom: .25em; margin-top: 2.2rem; }
+.main-content h4.example {
+  background: #f3f7fb; border-left: 4px solid #159957; padding: .45em .75em; margin-top: 1.8rem;
+}
+.main-content img.fig { display: block; max-width: 100%; height: auto; margin: 1rem auto; }
+.main-content mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; padding: .2em 0; }
+.main-content p.eq { text-align: center; font-style: italic; }
+.main-content p.crumbs { font-size: .95rem; }
+.main-content details.toc { background: #f8fafc; border: 1px solid #e1eaf3; border-radius: 6px; padding: .5em 1em; margin-bottom: 1.5rem; }
+.main-content details.toc summary { cursor: pointer; font-weight: 600; }
+.main-content table { display: block; overflow-x: auto; }
+.unit-list a { font-weight: 600; }
