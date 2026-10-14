@@ -229,13 +229,15 @@ When two gases are brought into contact, their molecules intermingle spontaneous
 
 Graham's Law of Diffusion (1829) states that, under identical conditions of temperature and pressure, the rate of diffusion of a gas is inversely proportional to the square root of its molecular mass (or, equivalently, its vapour density):
 
-_r_ ∝ _1/√M          so that          r₁/r₂ = √(M₂/Mᵢ)_
+$$
+r \propto \frac{1}{\sqrt{M}} \qquad \text{so that} \qquad \frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}
+$$
 
 where r₁ and r₂ are the rates of diffusion of gases 1 and 2, and M₁ and M₂ their respective molar masses. Since vapour density (VD) is proportional to molar mass (M = 2 × VD for gases referred to hydrogen), the law is equally often written as r₁/r₂ = √(VD₂/VD₁).
 
 ### 4.2 Effusion
 
-When a gas escapes from a container through a very small opening (a pinhole) into a region of lower pressure or vacuum, without the molecules undergoing collisions with one another as they pass through the opening, the process is called effusion, to distinguish it from diffusion, which involves molecular collisions throughout a bulk mixing process. Like diffusion, the rate of effusion of a gas depends inversely on the square root of its molar mass, and Dalton's law of effusion is normally written in the same mathematical form as Graham's law:
+When a gas escapes from a container through a very small opening (a pinhole) into a region of lower pressure or vacuum, without the molecules undergoing collisions with one another as they pass through the opening, the process is called effusion, to distinguish it from diffusion, which involves molecular collisions throughout a bulk mixing process. Like diffusion, the rate of effusion of a gas depends inversely on the square root of its molar mass, and Graham's law of effusion is normally written in the same mathematical form as Graham's law:
 
 _(Rate of effusion of gas 1)/(Rate of effusion of gas 2) = √(M₂/M₁)   (P, T constant)_
 
@@ -277,7 +279,7 @@ The gas laws described above are purely empirical – they summarise experimenta
 
 ![Figure 5](assets/unit1/fig05.png){: .fig}
 
-A gas that obeys all of these postulates exactly, under all conditions of temperature and pressure, is called an ideal (or perfect) gas. Real gases such as H₂, N₂, O₂ and CO₂ depart from postulates (1)–(3): their molecules occupy a finite (non-negligible) volume, and weak but real attractive forces exist between them. Consequently, real gases obey the ideal gas laws closely only at low pressure and moderately high temperature, where the molecules are far apart and their kinetic energy is large compared with the energy of intermolecular attraction; at low temperature and high pressure, where molecules are forced close together, marked deviations from ideal behaviour are observed (discussed in detail in Section 9).
+A gas that obeys all of these postulates exactly, under all conditions of temperature and pressure, is called an ideal (or perfect) gas. Real gases such as H₂, N₂, O₂ and CO₂ depart from postulates (1)–(3): their molecules occupy a finite (non-negligible) volume, and weak but real attractive forces exist between them. Consequently, real gases obey the ideal gas laws closely only at low pressure and moderately high temperature, where the molecules are far apart and their kinetic energy is large compared with the energy of intermolecular attraction; at low temperature and high pressure, where molecules are forced close together, marked deviations from ideal behaviour are observed (discussed in detail in Section 10).
 
 ### 5.2 Derivation of the Kinetic Gas Equation
 
@@ -897,8 +899,7 @@ Georges Claude's method is a refinement of Linde's process that achieves greater
 |---|---|---|
 |Faraday's method|External cooling with a freezing<br>mixture, combined with moderate<br>pressure|SO₂, CO₂, NO, Cl₂ (gases<br>with Tc near room<br>temperature)|
 |Linde's method|Joule–Thomson effect – cooling on<br>free expansion through a jet|Air, N₂, O₂|
-||Joule–Thomson expansion plus|Air and other permanent|
-|Claude's method|expansion against a piston (external<br>mechanical work)|gases, more efficiently<br>than Linde's method|
+|Claude's method|Joule–Thomson expansion plus expansion against a piston (external mechanical work)|Air and other permanent gases, more efficiently than Linde's method|
 
 ## 15. Summary of Key Equations
 
@@ -946,51 +947,51 @@ Georges Claude's method is a refinement of Linde's process that achieves greater
 
 9. What is meant by the equipartition of energy? Use this principle to explain why Cv for a diatomic gas is greater than Cv for a monatomic gas.
 
-- 10.Explain the meaning of the compressibility factor, Z, and describe how it varies with pressure for hydrogen and for carbon dioxide.
+**10.** Explain the meaning of the compressibility factor, Z, and describe how it varies with pressure for hydrogen and for carbon dioxide.
 
-- 11.State the faulty assumptions of the kinetic theory that led van der Waals to modify the ideal gas equation, and derive the van der Waals equation for n moles of a real gas.
+**11.** State the faulty assumptions of the kinetic theory that led van der Waals to modify the ideal gas equation, and derive the van der Waals equation for n moles of a real gas.
 
-- 12.Explain, using the van der Waals equation, why real gases show Z < 1 at low pressure and Z > 1 at high pressure.
+**12.** Explain, using the van der Waals equation, why real gases show Z < 1 at low pressure and Z > 1 at high pressure.
 
-- 13.Define the critical temperature, critical pressure and critical volume of a gas, and describe briefly how each may be determined experimentally.
+**13.** Define the critical temperature, critical pressure and critical volume of a gas, and describe briefly how each may be determined experimentally.
 
-- 14.Derive expressions for the critical constants Vc, Pc and Tc in terms of the van der Waals constants a, b and R.
+**14.** Derive expressions for the critical constants Vc, Pc and Tc in terms of the van der Waals constants a, b and R.
 
-- 15.State and explain the law of corresponding states. What is its significance in the study of liquids?
+**15.** State and explain the law of corresponding states. What is its significance in the study of liquids?
 
-- 16.Describe, with the help of a labelled diagram, Faraday's method, Linde's method and Claude's method for the liquefaction of gases, and explain why Claude's method is more efficient than Linde's method.
+**16.** Describe, with the help of a labelled diagram, Faraday's method, Linde's method and Claude's method for the liquefaction of gases, and explain why Claude's method is more efficient than Linde's method.
 
 ### 16.2 Numerical Problems
 
-- 17.25.8 litres of a gas has a pressure of 690 torr and a temperature of 17 °C. Calculate its volume if the pressure is changed to 1.85 atm and the temperature to 345 K.  [Ans: 15.1 L]
+**17.** 25.8 litres of a gas has a pressure of 690 torr and a temperature of 17 °C. Calculate its volume if the pressure is changed to 1.85 atm and the temperature to 345 K.  [Ans: 15.1 L]
 
-- 18.Calculate the pressure exerted by a mixture of 2.00 g of H₂ and 8.00 g of N₂ at 273 K in a 10-litre vessel.  [Ans: 2.84 atm]
+**18.** Calculate the pressure exerted by a mixture of 2.00 g of H₂ and 8.00 g of N₂ at 273 K in a 10-litre vessel.  [Ans: 2.84 atm]
 
-- 19.If a gas diffuses at a rate one-half that of oxygen, find its molecular mass.  [Ans: 128]
+**19.** If a gas diffuses at a rate one-half that of oxygen, find its molecular mass.  [Ans: 128]
 
-- 20.50 mL of gas A effuses through a pinhole in 146 s; the same volume of CO₂ effuses in 115 s under identical conditions. Calculate the molar mass of A.  [Ans: 71]
+**20.** 50 mL of gas A effuses through a pinhole in 146 s; the same volume of CO₂ effuses in 115 s under identical conditions. Calculate the molar mass of A.  [Ans: 71]
 
-- 21.Calculate the average kinetic energy of a hydrogen molecule at 0 °C.  [Ans: 5.66 × 10⁻¹⁴ erg]
+**21.** Calculate the average kinetic energy of a hydrogen molecule at 0 °C.  [Ans: 5.66 × 10⁻¹⁴ erg]
 
-- 22.Calculate the kinetic energy of two moles of N₂ at 27 °C.  [Ans: 7482.6 J]
+**22.** Calculate the kinetic energy of two moles of N₂ at 27 °C.  [Ans: 7482.6 J]
 
-- 23.Calculate the root mean square velocity of a CO₂ molecule at 1000 °C.  [Ans: ≈ 849.9 m s⁻¹]
+**23.** Calculate the root mean square velocity of a CO₂ molecule at 1000 °C.  [Ans: ≈ 849.9 m s⁻¹]
 
-- 24.Calculate the average velocity of a nitrogen molecule at STP.  [Ans: ≈ 45,447 cm s⁻¹]
+**24.** Calculate the average velocity of a nitrogen molecule at STP.  [Ans: ≈ 45,447 cm s⁻¹]
 
-- 25.At 0 °C and 1 atm, the molecular diameter of a gas is 4 Å. Calculate its mean free path.  [Ans: ≈ 0.524 × 10⁻⁵ cm]
+**25.** At 0 °C and 1 atm, the molecular diameter of a gas is 4 Å. Calculate its mean free path.  [Ans: ≈ 0.524 × 10⁻⁵ cm]
 
-- 26.One mole of water vapour is confined to a 20-litre flask at 27 °C. Calculate its pressure using (a) the van der Waals equation and (b) the ideal gas equation. (a = 5.464 L² atm mol⁻², b = 0.0305 L mol⁻¹) [Ans: (a) 1.218 atm (b) 1.232 atm]
+**26.** One mole of water vapour is confined to a 20-litre flask at 27 °C. Calculate its pressure using (a) the van der Waals equation and (b) the ideal gas equation. (a = 5.464 L² atm mol⁻², b = 0.0305 L mol⁻¹) [Ans: (a) 1.218 atm (b) 1.232 atm]
 
-- 27.van der Waals constants for HCl gas are a = 3.67 atm L² mol⁻² and b = 40.8 mL mol⁻¹. Find Tc and Pc. [Ans: Tc = 324.7 K, Pc = 81.6 atm]
+**27.** van der Waals constants for HCl gas are a = 3.67 atm L² mol⁻² and b = 40.8 mL mol⁻¹. Find Tc and Pc. [Ans: Tc = 324.7 K, Pc = 81.6 atm]
 
-- 28.The critical constants of water are Tc = 647 K, Pc = 218 atm, Vc = 0.057 L mol⁻¹. Calculate the van der Waals constants a and b.  [Ans: a = 2.12 L² atm mol⁻², b = 0.019 L mol⁻¹]
+**28.** The critical constants of water are Tc = 647 K, Pc = 218 atm, Vc = 0.057 L mol⁻¹. Calculate the van der Waals constants a and b.  [Ans: a = 2.12 L² atm mol⁻², b = 0.019 L mol⁻¹]
 
-- 29.The reduced volume and reduced temperature of a gas are 10.2 and 0.7 respectively; its critical pressure is 4.25 atm. Find its actual pressure.  [Ans: ≈ 0.68 atm]
+**29.** The reduced volume and reduced temperature of a gas are 10.2 and 0.7 respectively; its critical pressure is 4.25 atm. Find its actual pressure.  [Ans: ≈ 0.68 atm]
 
-- 30.Calculate the root mean square velocity of oxygen molecules at 27 °C.  [Ans: 4.835 × 10⁴ cm s⁻¹]
+**30.** Calculate the root mean square velocity of oxygen molecules at 27 °C.  [Ans: 4.835 × 10⁴ cm s⁻¹]
 
-- 31.A 10-litre flask contains 64 g of oxygen at 27 °C. Calculate its pressure using (a) the van der Waals equation and (b) the ideal gas equation. (a = 4.17 atm L² mol⁻², b = 0.037 L mol⁻¹)  [Ans: (a) 4.808 atm (b) 4.938 atm]
+**31.** A 10-litre flask contains 64 g of oxygen at 27 °C. Calculate its pressure using (a) the van der Waals equation and (b) the ideal gas equation. (a = 4.17 atm L² mol⁻², b = 0.037 L mol⁻¹)  [Ans: (a) 4.808 atm (b) 4.938 atm]
 
 ---
 

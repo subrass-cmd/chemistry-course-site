@@ -174,7 +174,7 @@ Thermodynamic quantities such as P, V and T are linked through an equation of st
 
 For a function z = z(x, y) of two independent variables, the partial derivative (∂z/∂x)y denotes the rate of change of z with x, holding y constant. The total differential of z collects both contributions:
 
-**_dz = (∂z/∂x)y dx + (∂z/∂y)x dy = M dx + N dy_**
+<p class="eq">dz = (∂z/∂x)y dx + (∂z/∂y)x dy = M dx + N dy</p>
 
 This form appears throughout thermodynamics — for example, for one mole of an ideal gas, V = V(T, P), so dV = (∂V/∂T)P dT + (∂V/∂P)T dP.
 
@@ -194,7 +194,7 @@ This is Euler's reciprocity relation, also called the condition for exactness. I
 
 For three variables x, y, z related by a single equation of state (so only two are independent), the cyclic rule states:
 
-**_(∂x/∂y)z (∂y/∂z)x (∂z/∂x)y = −1_**
+<p class="eq">(∂x/∂y)z (∂y/∂z)x (∂z/∂x)y = −1</p>
 
 This lets one thermodynamic partial derivative be exchanged for others that may be easier to measure or compute, particularly when relating (∂P/∂T)V to more accessible quantities via the Clapeyron equation (Unit III, Section 5).
 
@@ -306,7 +306,7 @@ Every system possesses a definite quantity of internal energy (E), comprising tr
 
 If a system absorbs heat q from the surroundings and, at the same time, does work w on the surroundings, the change in internal energy is:
 
-**_ΔE = q − w_**
+<p class="eq">ΔE = q − w</p>
 
 This equation may equivalently be stated: the net energy change of a closed system equals the heat transferred to the system minus the work done by the system.
 
@@ -498,13 +498,17 @@ Using the cyclic rule (Section 1.10.4) with x = T, y = P, z = H, and noting that
 
 We want (∂T/∂P)H — how temperature changes with pressure at constant enthalpy. Since H is a state function of T and P, and only two of {T, P, H} are truly independent (H is fixed by whichever two of T, P you pick), the cyclic rule applies to this triple with x = T, y = P, z = H:
 
-**_(∂T/∂P) H_** **_× (∂P/∂H) T_** **_× (∂H/∂T) P_** **_= −1_**
+$$
+\left(\frac{\partial T}{\partial P}\right)_H \left(\frac{\partial P}{\partial H}\right)_T \left(\frac{\partial H}{\partial T}\right)_P = -1
+$$
 
 #### Step 1 — Isolate the term you want
 
 Divide both sides by the two factors you don't want, leaving (∂T/∂P)H on its own:
 
-**_(∂T/∂P) H_** **_= −1 ⁄ [(∂P/∂H) T_** **_× (∂H/∂T) P_** **_]_**
+$$
+\left(\frac{\partial T}{\partial P}\right)_H = \frac{-1}{\left(\partial P/\partial H\right)_T \left(\partial H/\partial T\right)_P}
+$$
 
 #### Step 2 — Deal with the awkward middle factor
 
@@ -605,7 +609,7 @@ _Fig. 5.1 — Isothermal and adiabatic expansion from the same starting state: t
 
 Since ΔE = −w and ΔE = nCv(T2 − T1) for n moles:
 
-**_w(max, adiabatic) = n Cv (T1 − T2) = nR(T1 − T2)/(γ − 1)_**
+<p class="eq">w(max, adiabatic) = n Cv (T1 − T2) = nR(T1 − T2)/(γ − 1)</p>
 
 When T2 < T1 (expansion, cooling), w is positive — work is done BY the gas. When T2 > T1 (compression, heating), w is negative — work is done ON the gas.
 
@@ -741,11 +745,11 @@ Srhombic + O 2 → SO 2 , ΔH = −291.4 kJ;   Smonoclinic + O 2 → SO 2 , ΔH 
 
 The heat capacities of reactants and products are generally different, so the enthalpy of a reaction itself varies with temperature. Differentiating ΔH = H(products) − H(reactants) with respect to temperature at constant pressure:
 
-**_d(ΔH)/dT = ΔCp,     where ΔCp = ΣCp(products) − ΣCp(reactants)_**
+<p class="eq">d(ΔH)/dT = ΔCp,     where ΔCp = ΣCp(products) − ΣCp(reactants)</p>
 
 Integrating between T1 and T2, treating ΔCp as constant over this range, gives the integrated form of Kirchhoff's equation:
 
-**_ΔH2 − ΔH1 = ΔCp (T2 − T1)_**
+<p class="eq">ΔH2 − ΔH1 = ΔCp (T2 − T1)</p>
 
 An exactly analogous relation applies at constant volume: ΔE2 − ΔE1 = ΔCv(T2 − T1). Kirchhoff's equation is used to calculate the enthalpy of a reaction at one temperature from its known value at another, given the heat capacities of the reactants and products.
 
@@ -784,7 +788,7 @@ The tabulated ΔHf° and ΔHc values used throughout this section are experiment
 
 A weighed sample is burnt inside a sealed, rigid steel vessel (the "bomb"), pressurised with excess oxygen and immersed in a known mass of water within an insulated jacket. Because the vessel is rigid, its volume cannot change, so no P–V work is possible (w = 0), and the First Law reduces to:
 
-**_qv = ΔE_**
+<p class="eq">qv = ΔE</p>
 
 The heat released raises the temperature of the water bath and the calorimeter assembly; if the total heat capacity of the assembly, Ccal, has been predetermined (typically by burning a standard sample
 
@@ -800,13 +804,13 @@ _Fig. 6.3 — A bomb calorimeter: the reaction occurs inside a sealed, rigid ste
 
 Many reactions — particularly in solution, such as acid–base neutralisation or dissolution — are instead studied in a simple insulated ("coffee-cup") calorimeter open to the atmosphere, at constant pressure. Here P–V work is allowed, and the heat measured is directly the enthalpy change:
 
-**_qP = ΔH = (mass of solution) × (specific heat) × ΔT_**
+<p class="eq">qP = ΔH = (mass of solution) × (specific heat) × ΔT</p>
 
 #### 6.6.3 Converting Between ΔE and ΔH
 
 Since bomb calorimetry gives ΔE directly while most tabulated thermochemical data are quoted as ΔH, the two must be interconverted using the relation already established in Section 6.1:
 
-**_ΔH = ΔE + Δn(gas) RT_**
+<p class="eq">ΔH = ΔE + Δn(gas) RT</p>
 
 where Δn(gas) is the change in the number of moles of gas between products and reactants. This correction is usually small compared with ΔE itself, but it is not negligible for precise work, and ignoring it is a common source of error in this type of calculation.
 
@@ -841,7 +845,7 @@ The bond dissociation enthalpy is the enthalpy required to break one specific bo
 
 For a gas-phase reaction, an approximate enthalpy of reaction can be estimated as the energy needed to break all bonds in the reactants minus the energy released on forming all bonds in the products:
 
-**_ΔH(reaction) ≈ Σ(bond energies broken, reactants) − Σ(bond energies formed, products)_**
+<p class="eq">ΔH(reaction) ≈ Σ(bond energies broken, reactants) − Σ(bond energies formed, products)</p>
 
 This method is approximate because tabulated bond energies are averages over many compounds, but it is invaluable when direct thermochemical data are unavailable, and it also underlies the estimation of the strength (and hence reactivity) of individual bonds.
 
@@ -899,7 +903,7 @@ It was once believed that only exothermic changes (ΔH negative) could occur spo
 
 Entropy (S) is a thermodynamic state function. For a process carried out reversibly at a fixed temperature T, the change in entropy equals the heat exchanged reversibly divided by the absolute temperature:
 
-**_ΔS = qrev / T          (or dS = dqrev/T for an infinitesimal step)_**
+<p class="eq">ΔS = qrev / T          (or dS = dqrev/T for an infinitesimal step)</p>
 
 If heat is absorbed, ΔS is positive (entropy increases); if heat is evolved, ΔS is negative (entropy decreases). Entropy is measured in entropy units (eu), i.e. cal K⁻¹ mol⁻¹, or in SI units, J K⁻¹ mol⁻¹ (1 eu = 4.184 J K⁻¹ mol⁻¹).
 
@@ -1034,11 +1038,11 @@ _Fig. 10.1 — The Carnot cycle on a P–V diagram: two isotherms (solid) connec
 
 Summing the work done in the four steps (two isothermal, two adiabatic — the adiabatic work terms cancel exactly because Cv(T2−T1) appears with opposite signs in steps 2 and 4) gives the net work of the cycle:
 
-**_w(net) = RT2 ln(V2/V1) + RT1 ln(V4/V3)_**
+<p class="eq">w(net) = RT2 ln(V2/V1) + RT1 ln(V4/V3)</p>
 
 Using the adiabatic relations for steps 2 and 4, it can be shown that V2/V1 = V3/V4, which allows the net heat absorbed to be simplified to:
 
-**_q(net) = q2 − q1 = R(T2 − T1) ln(V2/V1) = w(net)_**
+<p class="eq">q(net) = q2 − q1 = R(T2 − T1) ln(V2/V1) = w(net)</p>
 
 ### 10.3 Thermodynamic Efficiency
 
@@ -1085,7 +1089,7 @@ The Second Law of Thermodynamics may be expressed in several equivalent forms:
 
 For a Carnot cycle, q2/T2 = q1/T1 (from Section 10.3), which can be rearranged, using the sign convention that q2 (absorbed) is positive and q1 (rejected) is negative, to give:
 
-**_q2/T2 + q1/T1 = 0,     i.e.   Σ(q/T) = 0 around the cycle_**
+<p class="eq">q2/T2 + q1/T1 = 0,     i.e.   Σ(q/T) = 0 around the cycle</p>
 
 Any arbitrary reversible cycle can be approximated as closely as desired by a very large number of infinitesimally small Carnot cycles tiled across the corresponding P–V diagram. Summing Σ(q/T) = 0 over all these elementary cycles and letting their number tend to infinity gives, for any reversible cyclic process:
 

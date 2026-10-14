@@ -91,7 +91,7 @@ $$
 
 Since ΔA = ΔE − TΔS and ΔG = ΔA + PΔV, and −ΔA equals the total maximum work wrev, it follows that:
 
-**_Net work (excluding PV work) = wrev − PΔV = −ΔG_**
+<p class="eq">Net work (excluding PV work) = wrev − PΔV = −ΔG</p>
 
 In other words, the decrease in Gibbs free energy at constant T and P equals the maximum nonexpansion (net) work obtainable from the system — this could be electrical work (as in a fuel cell or electrochemical cell), surface work, or any other form of useful work apart from simple volume expansion against the atmosphere. Because most chemical reactions of practical interest are carried out at (essentially) constant temperature and pressure, G is by far the most widely used thermodynamic potential in chemistry.
 
@@ -179,7 +179,7 @@ $$
 
 An exactly parallel derivation, starting from A = E − TS and dA = −SdT at constant volume, gives the analogous relation for processes at constant volume:
 
-**_ΔA = ΔE + T [∂(ΔA)/∂T]V_**
+<p class="eq">ΔA = ΔE + T [∂(ΔA)/∂T]V</p>
 
 ### 2.3 Using the Gibbs–Helmholtz Equation
 
@@ -199,11 +199,11 @@ For N2(g) + 3H2(g) → 2NH3(g): ΔG = −33.089 kJ at 298 K and ΔG = −28.018 
 
 A second, very convenient, form of the Gibbs–Helmholtz equation is obtained by considering the quantity ΔG/T rather than ΔG itself. Differentiating ΔG/T with respect to T at constant pressure, using the quotient rule:
 
-**_[∂(ΔG/T)/∂T]P = (1/T)(∂ΔG/∂T)P − ΔG/T²_**
+<p class="eq">[∂(ΔG/T)/∂T]P = (1/T)(∂ΔG/∂T)P − ΔG/T²</p>
 
 Substituting (∂ΔG/∂T)P = (ΔG − ΔH)/T (from Section 2.1) into the right-hand side:
 
-**_[∂(ΔG/T)/∂T]P = (ΔG − ΔH)/T² − ΔG/T² = − ΔH/T²_**
+<p class="eq">[∂(ΔG/T)/∂T]P = (ΔG − ΔH)/T² − ΔG/T² = − ΔH/T²</p>
 
 Since d(1/T) = −dT/T², this is equivalent to the compact and widely used alternative form:
 
@@ -225,11 +225,11 @@ The standard Gibbs energy of formation, ΔGf°, is defined as the free energy ch
 
 ### 3.1 Calculating ΔG° of a Reaction
 
-**_ΔG° = ΣΔGf°(products) − ΣΔGf°(reactants)_**
+<p class="eq">ΔG° = ΣΔGf°(products) − ΣΔGf°(reactants)</p>
 
 Alternatively, ΔG° may be obtained directly from the standard enthalpy and standard entropy of the reaction:
 
-**_ΔG° = ΔH° − TΔS°_**
+<p class="eq">ΔG° = ΔH° − TΔS°</p>
 
 A representative selection of standard Gibbs energies of formation (298 K) is given below.
 
@@ -286,7 +286,7 @@ For a reaction, ΔH = +45.0 kJ mol ⁻ ¹ and ΔS = +125 J K ⁻ ¹ mol ⁻ ¹ (
 
 The two partial derivatives of G with respect to temperature and pressure follow directly from the combined statement of the First and Second Laws, dG = VdP − SdT, applied to a closed system doing only PV work:
 
-**_(∂G/∂T)P = − S               (∂G/∂P)T = V_**
+<p class="eq">(∂G/∂T)P = − S               (∂G/∂P)T = V</p>
 
 Since entropy S is always positive, G decreases as temperature rises at constant pressure. Since molar volume V is always positive, G increases as pressure rises at constant temperature. Gases, having much larger molar volumes than liquids or solids, show a correspondingly much stronger dependence of G on pressure.
 
@@ -294,7 +294,7 @@ Since entropy S is always positive, G decreases as temperature rises at constant
 
 At constant temperature, dG = VdP. For n moles of an ideal gas, V = nRT/P, so:
 
-**_dG = nRT (dP/P)_**
+<p class="eq">dG = nRT (dP/P)</p>
 
 Integrating between P1 and P2:
 
@@ -331,15 +331,15 @@ Consider one mole of a liquid (molar volume V1) in reversible equilibrium with i
 
 Allow the liquid to evaporate reversibly at constant T; the work done during vaporisation is w = P(V2 − V1). Differentiating with respect to temperature (holding V2 − V1 fixed for this step):
 
-**_dw/dT = (dP/dT)(V2 − V1)_**
+<p class="eq">dw/dT = (dP/dT)(V2 − V1)</p>
 
 The heat absorbed in this reversible, constant-temperature vaporisation is the molar latent heat, ΔH, so from the First Law, ΔE = w − ΔH. Substituting into the Gibbs–Helmholtz-type relation for this phase change (obtained by applying the Gibbs–Helmholtz treatment to this isothermal transition) and simplifying gives:
 
-**_ΔH = T(V2 − V1)(dP/dT)_**
+<p class="eq">ΔH = T(V2 − V1)(dP/dT)</p>
 
 Rearranged, this is the Clapeyron equation, applicable in general to any two-phase equilibrium of a pure substance (solid–liquid, liquid–vapour or solid–vapour):
 
-**_dP/dT = ΔH / [T(V2 − V1)]_**
+<p class="eq">dP/dT = ΔH / [T(V2 − V1)]</p>
 
 Here ΔH is the molar enthalpy of the transition and (V2 − V1) is the corresponding molar volume change (final phase minus initial phase).
 
@@ -371,19 +371,19 @@ For liquid–vapour or solid–vapour equilibria, two simplifications can be mad
 
 Substituting these approximations into the Clapeyron equation:
 
-**_dP/dT = ΔH·P / (RT²)_**
+<p class="eq">dP/dT = ΔH·P / (RT²)</p>
 
 Rearranging and using d(ln P)/dP = 1/P:
 
-**_d(ln P)/dT = ΔH / (RT²)_**
+<p class="eq">d(ln P)/dT = ΔH / (RT²)</p>
 
 This differential form is the Clausius–Clapeyron equation. If ΔH (the molar heat of vaporisation, assumed constant over the temperature range of interest) is known, direct integration gives:
 
-**_ln P = − ΔH/(RT) + constant_**
+<p class="eq">ln P = − ΔH/(RT) + constant</p>
 
 Evaluating this expression at two temperatures T1 and T2 (vapour pressures P1 and P2) and subtracting eliminates the constant, giving the integrated Clausius–Clapeyron equation used in numerical work:
 
-**_log(P2/P1) = [ΔH / (2.303 R)] × [(T2 − T1)/(T1 T2)]_**
+<p class="eq">log(P2/P1) = [ΔH / (2.303 R)] × [(T2 − T1)/(T1 T2)]</p>
 
 ### 6.2 Applications
 
@@ -531,7 +531,7 @@ The chemical potential may usefully be thought of as the escaping tendency of a 
 
 Differentiating μi = (∂G/∂ni)T,P with respect to T, and using the general relation (∂G/∂T)P = −S together with the definition of a partial molar property, gives:
 
-**_(∂μi/∂T)P = − S̄i     (S̄i = partial molar entropy of component i)_**
+<p class="eq">(∂μi/∂T)P = − S̄i     (S̄i = partial molar entropy of component i)</p>
 
 Since S̄i is always positive, the chemical potential of every substance decreases as temperature increases at constant pressure — exactly analogous to the behaviour of the molar Gibbs energy of a pure substance.
 
@@ -539,7 +539,7 @@ Since S̄i is always positive, the chemical potential of every substance decreas
 
 Similarly, differentiating with respect to pressure and using (∂G/∂P)T = V together with the partial molar property definition:
 
-**_(∂μi/∂P)T = V̄i     (V̄i = partial molar volume of component i)_**
+<p class="eq">(∂μi/∂P)T = V̄i     (V̄i = partial molar volume of component i)</p>
 
 Since V̄i is always positive, the chemical potential of a substance increases as pressure increases at constant temperature. For an ideal gas, integrating this relation from a standard pressure P° (usually 1 atm) to any pressure P gives the very useful explicit expression:
 
@@ -785,7 +785,7 @@ For a binary mixture at constant T and P, show that if the partial molar entropy
 
 Solution: Since S̄i = −(∂μi/∂T)P (Section 9.3), applying the Gibbs–Duhem equation x1 dμ1 + x2 dμ2 = 0 (mole-fraction form, dividing the standard form by total moles) to the temperature derivative at constant composition gives, after differentiating throughout with respect to T at constant P and x1:
 
-**_x1 dS̄1 + x2 dS̄2 = 0     (constant T, P)_**
+<p class="eq">x1 dS̄1 + x2 dS̄2 = 0     (constant T, P)</p>
 
 So dS̄2 = −(x1/x2) dS̄1: if S̄1 increases with x1, S̄2 must decrease, in the same compensating pattern already established for chemical potential itself in Section 8. Physically, this reflects the fact that entropy contributions in a mixture, like all partial molar properties, are constrained by the overall extensive nature of total entropy — one component's contribution cannot rise without the other's falling correspondingly, when weighted by the respective mole fractions.
 
@@ -793,7 +793,7 @@ So dS̄2 = −(x1/x2) dS̄1: if S̄1 increases with x1, S̄2 must decrease, in t
 
 Solution: Differentiate Cv = T(∂S/∂T)V with respect to V at constant T:
 
-**_(∂Cv/∂V)T = T (∂/∂T)[(∂S/∂V)T]V = T (∂/∂T)[(∂P/∂T)V]V = T (∂²P/∂T²)V_**
+<p class="eq">(∂Cv/∂V)T = T (∂/∂T)[(∂S/∂V)T]V = T (∂/∂T)[(∂P/∂T)V]V = T (∂²P/∂T²)V</p>
 
 (using the Maxwell relation to replace (∂S/∂V)T by (∂P/∂T)V, then differentiating again with respect to T at constant V, and invoking the equality of mixed partial derivatives to interchange the order of differentiation). This result is useful because it shows that, for any substance obeying an equation of state that is linear in T at constant V (as an ideal gas does, P = RT/V, giving ∂²P/∂T² = 0), Cv is completely independent of volume — recovering, from purely thermodynamic reasoning (with no molecular assumptions), the familiar ideal-gas result that Cv depends on temperature alone, not on volume or pressure.
 
